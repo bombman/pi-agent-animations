@@ -1,0 +1,31 @@
+{
+  "name": "pi-agent-animations",
+  "version": "0.1.0",
+  "description": "Cute animated widgets and tiny ambient animations for the pi coding agent TUI.",
+  "keywords": [
+    "pi-package",
+    "pi-agent",
+    "pi-coding-agent",
+    "pi-extension",
+    "animations",
+    "tui",
+    "cat"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typescript": "^5.9.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
