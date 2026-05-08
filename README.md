@@ -2,9 +2,16 @@
 
 Cute animated widgets and tiny ambient animations for the [pi coding agent](https://pi.dev/) TUI.
 
-This package starts with a tiny walking cat, and is designed to grow into a collection of small animations for pi agent.
+<p align="center">
+  <video src="https://github.com/bombman/pi-agent-animations/raw/main/assets/screen-shot.mp4" controls muted loop></video>
+</p>
 
-## Animations
+<p align="center">
+  <strong>Make your pi agent feel alive.</strong><br />
+  Tiny animations, widgets, and terminal companions for your coding sessions.
+</p>
+
+## ✨ Animations
 
 ### Walking Cat
 
@@ -23,9 +30,7 @@ Commands:
 /cat off   # turn off
 ```
 
-## Install
-
-### From GitHub
+## 📦 Install
 
 Install globally with pi:
 
@@ -45,7 +50,7 @@ Then reload pi:
 /reload
 ```
 
-### Local development
+## 🛠 Local development
 
 Clone or use this folder locally:
 
@@ -59,10 +64,12 @@ Or run temporarily:
 pi -e /path/to/pi-agent-animations
 ```
 
-## Package structure
+## 📁 Package structure
 
 ```text
 pi-agent-animations/
+├── assets/
+│   └── screen-shot.mp4
 ├── extensions/
 │   └── cat-animation.ts
 ├── package.json
@@ -71,7 +78,7 @@ pi-agent-animations/
 
 `package.json` includes a `pi` manifest so pi can auto-load everything in `extensions/`.
 
-## Roadmap
+## 🗺 Roadmap
 
 Ideas for future animations:
 
@@ -84,7 +91,7 @@ Ideas for future animations:
 - 🐟 swimming fish
 - custom user-selectable animation command
 
-## Development
+## 🧑‍💻 Development
 
 Add new animations under:
 

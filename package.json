@@ -16,7 +16,8 @@
   "pi": {
     "extensions": [
       "./extensions"
-    ]
+    ],
+    "video": "https://raw.githubusercontent.com/bombman/pi-agent-animations/main/assets/screen-shot.mp4"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
