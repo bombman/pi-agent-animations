@@ -3,7 +3,13 @@
 Cute animated widgets and tiny ambient animations for the [pi coding agent](https://pi.dev/) TUI.
 
 <p align="center">
-  <video src="https://github.com/bombman/pi-agent-animations/raw/main/assets/screen-shot.mp4" controls muted loop></video>
+  <a href="https://github.com/bombman/pi-agent-animations/raw/main/assets/screen-shot.mp4">
+    <img src="assets/screen-shot.gif" alt="pi-agent-animations demo: walking cat animation in pi agent" width="900" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bombman/pi-agent-animations/raw/main/assets/screen-shot.mp4">Watch MP4 demo</a>
 </p>
 
 <p align="center">
@@ -69,6 +75,7 @@ pi -e /path/to/pi-agent-animations
 ```text
 pi-agent-animations/
 ├── assets/
+│   ├── screen-shot.gif
 │   └── screen-shot.mp4
 ├── extensions/
 │   └── cat-animation.ts
