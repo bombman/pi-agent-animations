@@ -2,8 +2,7 @@
 
 Cute animated widgets and tiny ambient animations for the [pi coding agent](https://pi.dev/) TUI.
 
-> สถานะตอนนี้: มีแมวเดินไปเดินมา 1 ตัวก่อน 🐈  
-> ต่อไป repo นี้จะรวม animation อื่น ๆ สำหรับ pi agent เพิ่มอีกเรื่อย ๆ
+This package starts with a tiny walking cat, and is designed to grow into a collection of small animations for pi agent.
 
 ## Animations
 
@@ -28,16 +27,16 @@ Commands:
 
 ### From GitHub
 
-After this repo is pushed to GitHub, install it with:
+Install globally with pi:
 
 ```bash
-pi install git:github.com/YOUR_USERNAME/pi-agent-animations
+pi install git:github.com/bombman/pi-agent-animations
 ```
 
 Or test without installing:
 
 ```bash
-pi -e git:github.com/YOUR_USERNAME/pi-agent-animations
+pi -e git:github.com/bombman/pi-agent-animations
 ```
 
 Then reload pi:
